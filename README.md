@@ -3,6 +3,10 @@
 A news web app coded with Angular and deployed to firebase which is consuming "https://newsapi.org/" API <br/>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.5.
 
+# Demo Url
+
+https://angular-news722.web.app/
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
