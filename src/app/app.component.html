@@ -1,0 +1,11 @@
+<mat-toolbar color="primary">
+  <i class="fa fa-newspaper-o"></i><span> &nbsp;&nbsp;Angular News</span> <span class="spacer"></span>
+  <div>
+    <button mat-button routerLinkActive="active" [routerLink]="['/home']"><i class="fa fa-home" aria-hidden="true"></i> Home</button>
+    <button mat-button routerLinkActive="active" [routerLink]="['/headlines']"><i class="fa fa-header" aria-hidden="true"></i> Headlines</button>
+    <button mat-button routerLinkActive="active" [routerLink]="['/sources']"><i class="fa fa-file" aria-hidden="true"></i> Sources</button>
+    <button mat-button routerLinkActive="active" [routerLink]="['/favorites']"><i class="fa fa-heart-o" aria-hidden="true"></i> Favourites</button>
+  </div>
+</mat-toolbar>
+
+<div class="container"><router-outlet></router-outlet></div>

@@ -1,0 +1,27 @@
+<div class="text-center" *ngIf="articles?.length == 0">
+  <img id="nodata" src="https://www.oneworldtrip.co.in/assets/image/no_results.png" class="img-fluid" alt="">
+</div>
+<div class="row">
+  <div
+    class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mt-10"
+    *ngFor="let article of articles">
+    <mat-card>
+      <img
+        mat-card-image
+        *ngIf="article.urlToImage"
+        [src]="article.urlToImage"
+        alt=""
+      />
+      <mat-card-header>
+        <mat-card-title>{{ article.title }}.</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>{{ article.content }}</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button (click)="onUnfavorite(article)"><i class="fa fa-trash-o"></i> Unfavourite</button>
+        <button mat-button (click)="readMore(article.url)"><i class="fa fa-window-restore" aria-hidden="true"></i> Read More</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>
