@@ -27,7 +27,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   getData() {
     this.newsSubscription = this.newsService
       .getData(
-        `top-headlines?country=us&pageSize=${this.pageSize}&page=${this.page}`
+        `top-headlines?country=in&pageSize=${this.pageSize}&page=${this.page}`
       )
       .subscribe(data => {
         this.news = data;
