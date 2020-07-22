@@ -1,3 +1,7 @@
+# ALERT
+
+NewsApi is no longer serving response on Live server in development pricing mode, so the webpage is *not live* anymore.
+
 # AngularNews
 
 A news web app coded with Angular and deployed to firebase which is consuming "https://newsapi.org/" API <br/>
