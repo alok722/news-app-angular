@@ -1,36 +1,63 @@
-# ALERT
+<h1 align="center">Welcome to Angular News 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
+    <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/AlokR1" target="_blank">
+    <img alt="Twitter: AlokR1" src="https://img.shields.io/twitter/follow/AlokR1.svg?style=social" />
+  </a>
+  <a href="https://github.com/alok722" target="_blank">
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/alok722?style=social">                                       
+  </a>       
+</p>
 
-NewsApi is no longer serving response on Live server in development pricing mode, so the webpage is *not live* anymore.
+> A news web app coded with Angular and deployed to firebase which is consuming https://newsapi.org/ API
 
-# AngularNews
+## ⚠ ALERT
 
-A news web app coded with Angular and deployed to firebase which is consuming "https://newsapi.org/" API <br/>
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.5.
 
-# Demo Url
+[NewsApi](https://newsapi.org) is no longer serving response on Live server in development pricing mode, so the webpage is not live anymore.
 
-https://angular-news722.web.app/
 
-## Development server
+### 🏠 [Homepage](https://angular-news722.web.app/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### ✨ [Demo](https://angular-news722.web.app/)
 
-## Code scaffolding
+## Install
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```sh
+npm install
+```
 
-## Build
+## Usage
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```sh
+Run `ng serve` for a dev server and navigate to `http://localhost:4200/`.
+```
 
-## Running unit tests
+## Run tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```sh
+npm run test
+```
 
-## Running end-to-end tests
+## Author
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+👤 **Alok Raj**
 
-## Further help
+* Website: https://opendevs.in
+* Twitter: [@AlokR1](https://twitter.com/AlokR1)
+* Github: [@alok722](https://github.com/alok722)
+* LinkedIn: [@alok722](https://linkedin.com/in/alok722)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/alok722/angular-news/issues). 
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
