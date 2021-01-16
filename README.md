@@ -1,9 +1,6 @@
 <h1 align="center">Welcome to Angular News 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="#" target="_blank">
-    <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" />
-  </a>
   <a href="https://twitter.com/alok722" target="_blank">
     <img alt="Twitter: alok722" src="https://img.shields.io/twitter/follow/alok722.svg?style=social" />
   </a>
@@ -12,42 +9,30 @@
   </a>       
 </p>
 
-> A news web app coded with Angular and deployed to firebase which is consuming https://newsapi.org/ API
+> A responsive news web app coded with Angular and angular material consuming https://newsapi.org/ API
 
-## ⚠ ALERT
+## 🛠 usage
 
-
-[NewsApi](https://newsapi.org) is no longer serving response on Live server in development pricing mode, so the webpage is not live anymore.
-
-
-### 🏠 [Homepage](https://angular-news722.web.app/)
-
-### ✨ [Demo](https://angular-news722.web.app/)
-
-## Install
-
-```sh
-npm install
+```shell
+$ cd angular-news
+$ npm install
+$ ng serve
+$ open `http://localhost:4200/`
 ```
 
-## Usage
-
-```sh
-Run `ng serve` for a dev server and navigate to `http://localhost:4200/`.
-```
-
-## Run tests
-
-```sh
-npm run test
-```
+## 📸 screenshot
+![screenshot 1](./screenshot/news-app-1.JPG)
+![screenshot 2](./screenshot/news-app-2.png)
+![screenshot 3](./screenshot/news-app-3.JPG)
+![screenshot 4](./screenshot/news-app-4.JPG)
+![screenshot 5](./screenshot/news-app-5.JPG)
 
 ## Author
 
 👤 **Alok Raj**
 
 * Website: https://opendevs.in
-* Twitter: [@AlokR1](https://twitter.com/AlokR1)
+* Twitter: [@AlokR1](https://twitter.com/alok722)
 * Github: [@alok722](https://github.com/alok722)
 * LinkedIn: [@alok722](https://linkedin.com/in/alok722)
 
